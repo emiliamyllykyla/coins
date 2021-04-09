@@ -1,0 +1,23 @@
+.wallet-info {
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wallet-info div {
+  padding: 25px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet-info-number {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+@media (orientation: portrait) {
+  .wallet-info {
+    flex-direction: column;
+  }
+}

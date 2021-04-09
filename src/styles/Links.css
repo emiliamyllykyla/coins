@@ -1,0 +1,21 @@
+.coin-links {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coin-links table th {
+  width: 200px;
+}
+.coin-links table td {
+  width: 400px;
+}
+
+.coin-link {
+  width: 100%;
+  word-break: break-all;
+  display: block;
+}

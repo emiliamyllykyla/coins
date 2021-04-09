@@ -1,0 +1,73 @@
+.table-container { 
+  display: block;
+  overflow: auto;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid whitesmoke;
+}
+
+tr:hover {
+  background-color: #fff5dc;
+  cursor: pointer;
+}
+
+th {
+  padding: 20px 10px;
+  background-color: #dbdbdb;
+  text-align: right;
+}
+
+td {
+  padding: 20px 10px;
+  text-align: right;
+}
+
+.sort-btn {
+  margin-left: 3px;
+  border: 0;
+  background-color: transparent;
+  color: #686868;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sort-btn svg {
+  position: relative;
+  top: 3px;
+}
+
+.coin {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.coin-icon {
+  width: 27px;
+  max-height: 27px;
+  margin-right: 13px;
+}
+
+.coin div {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-name {
+  color: #686868;
+}
+
+.positive {
+  color: green;
+}
+.negative {
+  color: red;
+}

@@ -1,0 +1,86 @@
+.col-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-2 {
+  width: 66%;
+}
+
+.col-1 {
+  width: 32%;
+}
+
+.col > * {
+  margin-bottom: 20px;
+}
+
+.col > *:last-of-type {
+  margin-bottom: 0;
+}
+
+.week-charts {
+  height: 600px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.coin-info {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coin-table {
+  width: auto;
+}
+
+.coin-table th {
+  background-color: whitesmoke;
+  border-bottom: 1px solid #dbdbdb;
+  width: 300px;
+}
+
+.coin-table td {
+  border-bottom: 1px solid #dbdbdb;
+  text-align: left;
+  width: 300px;
+}
+
+.coin-table tr:last-of-type td,
+.coin-table tr:last-of-type th {
+  border-bottom: 1px solid white;
+}
+
+.coin-table tr:hover {
+  background-color: transparent;
+  cursor: auto;
+}
+
+@media (orientation: portrait) {
+  .col-container {
+    flex-direction: column;
+  }
+  .col-1 {
+    order: 0;
+    width: 100%;
+  }
+  .col-2 {
+    order: 1;
+    width: 100%;
+  }
+  .col-1 > *:last-of-type {
+    margin-bottom: 20px;
+  }
+  .week-charts {
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,70 @@
+.token-container {
+    display: flex; 
+    justify-content: center;
+}
+
+.token {
+    width: 600px;
+    padding: 30px 50px;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+    background-color: white;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #A9A9A9;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 200px;
+    margin: 0 auto 10px auto;
+    padding: 12px;
+    background-color:  #89b82b;
+    color: white;
+    border: 1px solid whitesmoke;
+    font-size: 18px;
+    display: block;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #98ce2e;
+}
+
+i {
+    font-style: normal;
+}
+
+.alert {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.alert-warning {
+    background-color: cornsilk;
+    color: darkgoldenrod;
+    border: 1px solid gold;
+}
+
+.alert-info {
+    background-color: lightcyan;
+    color: darkcyan;
+    border: 1px solid paleturquoise;
+}
+
+.alert-error { 
+    background-color: rgb(255, 213, 220);
+    color: darkred; 
+    border: 1px solid lightcoral;
+}

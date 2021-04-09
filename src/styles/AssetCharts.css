@@ -1,0 +1,37 @@
+.chart-row {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-container {
+  width: 32%;
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: auto;
+}
+
+.custom-tooltip {
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+@media (orientation: portrait) {
+  .chart-row {
+    flex-direction: column;
+  }
+  .chart-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .chart-container:last-of-type {
+    margin: 0;
+  }
+}
