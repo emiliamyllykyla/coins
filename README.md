@@ -21,5 +21,5 @@ Coins is a colorful [Binance](https://www.binance.com/) crypto wallet tracker!
 
 <h2>Run the app</h2>
 
-* `node server/server.js` in project directory runs the server
-* `npm start`in project directory runs the app in the development mode
+* Install [Docker](https://www.docker.com/)
+* In the project directory run `docker-compose up`
