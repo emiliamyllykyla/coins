@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+
+  client:
+    image: "node:alpine"
+    user: "node"
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    command: "npm start"
+
+  server:
+    image: "node:alpine"
+    user: "node"
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
+    expose:
+      - "8585"
+    command: "node server/server.js"

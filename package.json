@@ -2,7 +2,7 @@
   "name": "coins",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8585",
+  "proxy": "http://server:8585",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
